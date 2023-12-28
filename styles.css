@@ -1,0 +1,39 @@
+h2 {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(45,253,29,1) 50%, rgba(252,176,69,1) 100%);
+    border-radius: 5px;
+    color: white;
+}
+#logo{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+
+#skills ul li{
+    list-style-type: none;
+    cursor: pointer;
+ background-color: aqua;
+ margin-top: 15px;
+ border-radius: 5px;
+ 
+}
+
+#skills ul li:hover{
+    background-color: green;
+}
+
+#contact ul li {
+    list-style-type: none;
+    display: inline;
+    font-size: 45px;
+    margin: 0 30px;
+}
+
+.customcolor{
+    color: #0D6EFD;
+    cursor: pointer;
+}
+
+
