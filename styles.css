@@ -1,39 +1,61 @@
-h2 {
-    background: rgb(131,58,180);
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(45,253,29,1) 50%, rgba(252,176,69,1) 100%);
-    border-radius: 5px;
+body{
+    background-color: #161616 !important;
+}
+
+.mail p{
+    font-size: 18px;
+}
+
+button{
+    width: 8rem !important;
+    background-color: #4711E0 !important;
+    border-radius: 20px !important;
+    padding: 2px 0 !important;
+}
+
+
+/* aboute me section */
+
+.about-me{
+    margin-top: 10rem;
+}
+.about-me img{
+    border-radius: 50%;
+    width:  100px;
+    height: 100px;
+}
+
+.icons  > div i{
+    font-size: 2rem;
+}
+
+.footer-top{
+    padding: 11rem 0;
+}
+
+.Card{
+    height: 25rem;
+
+    -webkit-box-shadow: 1px 1px 22px 0px rgba(71,17,224,1);
+-moz-box-shadow: 1px 1px 22px 0px rgba(71,17,224,1);
+box-shadow: 1px 1px 22px 0px rgba(71,17,224,1);
+}
+
+.Card h2, .Card p{
     color: white;
 }
-#logo{
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
+
+.Card p{
+    margin-top: 5rem;
 }
 
 
-#skills ul li{
-    list-style-type: none;
-    cursor: pointer;
- background-color: aqua;
- margin-top: 15px;
- border-radius: 5px;
- 
-}
-
-#skills ul li:hover{
-    background-color: green;
-}
-
-#contact ul li {
-    list-style-type: none;
-    display: inline;
-    font-size: 45px;
-    margin: 0 30px;
-}
-
-.customcolor{
-    color: #0D6EFD;
-    cursor: pointer;
+.Services img{
+    width: 10%;
+    margin: 2rem 0 1rem 1.5rem;
 }
 
 
+.footer-top h2{
+    font-size: 48px;
+}
