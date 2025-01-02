@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ajay Shakya</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'custom-dark': '#252525',
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="./styles.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="bg-custom-dark">
+  <nav class="px-4 py-2 flex justify-between items-center">
+    <div class="flex items-center">
+      <p class="text-white mr-4">ajaykumarshakya560@gmail.com</p>
+      <button class=" text-white py-2 rounded">Copy</button>
+    </div>
+    <ul class="flex space-x-4">
+      <li><a href="/" class="text-white">Home</a></li>
+      <li><a href="#projects" class="text-white">Projects</a></li>
+      <li><a href="#pricing" class="text-white">Pricing</a></li>
+      <li><a href="/contact.html" class="text-white">Contact us</a></li>
+
+
+    </ul>
+  </nav>
+
+
+
+  <div class="main">
+    <section class="about-me py-8">
+      <div class="flex justify-center">
+        <img src="./Ajay.jpeg" alt="profile pick" class="rounded-full w-32 h-32">
+      </div>
+      <div class="flex justify-center my-8">
+        <h1 class="text-white text-4xl "><span class="typing-animation block">Hi there, I'm Ajay shakya</span></h1>
+
+      </div>
+
+      <div class="flex justify-center mt-3">
+        <h2 class="text-white text-2xl">Full Stack Developer</h2>
+      </div>
+
+      <div class="flex justify-center icons mt-5">
+        <div class="bg-white p-2 rounded mx-4">
+          <i class="fab fa-instagram"></i>
+        </div>
+
+        <div class="bg-white p-2 rounded mx-4">
+          <i class="fab fa-linkedin"></i>
+        </div>
+
+        <div class="bg-white p-2 rounded mx-4">
+          <i class="fas fa-x"></i>
+        </div>
+      </div>
+
+
+      <div class="flex justify-center">
+        <div class="mt-8  w-[50%]">
+          <h1 class="text-center  text-3xl text-white my-5">About Me</h1>
+
+          <p class="text-white text-center">
+            "Catering cutting-edge web solutions, we specialize in converting Figma designs to frontend code, revamping
+            websites with React.js, and boosting online presence through SEO services. With a focus on innovation and
+            excellence, we redefine digital experiences."</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="Services  px-2">
+      <div class="container mx-auto">
+        <h1 class="text-center text-white text-3xl my-12">Services</h1>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <!-- Card 1 -->
+          <div class=" Card rounded-lg overflow-hidden shadow-lg">
+            <img src="./Layer 2.svg" alt="Icon" class="w-full">
+            <div class="p-6">
+              <h2 class="text-xl font-bold  mb-2">Full Web Development / Android App Development</h2>
+              <p class="mt-12">"A full-stack service encompassing frontend, backend, UX design, scalability, security,
+                testing, deployment, and client collaboration."</p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class=" Card rounded-lg overflow-hidden shadow-lg">
+            <img src="./figma_icon 1.svg" alt="Icon" class="w-full">
+            <div class="p-6">
+              <h2 class="text-xl font-bold  mb-2">Figma to Frontend</h2>
+              <p class="mt-12">
+                "Expert conversion of Figma designs or any design tool mockups into pixel-perfect frontend code,
+                ensuring seamless integration of design elements with optimal functionality and responsiveness."</p>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class=" Card rounded-lg overflow-hidden shadow-lg">
+            <img src="./Layer 2.svg" alt="Icon" class="w-full">
+            <div class="p-6">
+              <h2 class="text-xl font-bold  mb-2">Website Recreation</h2>
+              <p class="mt-12">"Revamp or recreate websites with advanced technologies like React.js, enhancing
+                performance, interactivity, and user experience while preserving existing content and functionalities
+                for seamless transition and modernization."</p>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class=" Card rounded-lg overflow-hidden shadow-lg">
+            <img src="./search.svg" alt="Icon" class="w-full">
+            <div class="p-6">
+              <h2 class="text-xl font-bold  mb-2">SEO</h2>
+              <p class="mt-12">"Boost online visibility with comprehensive Search Engine Optimization (SEO) services,
+                optimizing websites to rank higher in search engine results and drive organic traffic, leads, and
+                conversions."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="techs ">
+      <div class="my-4">
+        <div class="container mx-auto px-4 py-12">
+          <div class="text-center mb-8">
+            <h1 class="text-3xl font-bold ">Our TechStack</h1>
+            <p class="text-zinc-600 dark:text-zinc-300 mt-2 ">
+              We are flexible in choosing tech stack, but our favorite tech stacks are below
+            </p>
+          </div>
+          <div class="flex justify-center gap-4 flex-wrap techs-container">
+            <div class="tech-card">
+              <img src="./nextjs.png" alt="Next.js" class="mx-auto" />
+              <p class="text-center mt-2 text-zinc-800 dark:text-white">Next.js</p>
+            </div>
+            <div class="tech-card">
+              <img src="./react.png" alt="React" class="mx-auto" />
+              <p class="text-center mt-2 text-zinc-800 dark:text-white">React</p>
+            </div>
+            <div class="tech-card">
+              <img src="./screenshot_361.png" alt="Tailwind" class="mx-auto" />
+              <p class="text-center mt-2 text-zinc-800 dark:text-white">Tailwind</p>
+            </div>
+            <div class="tech-card">
+              <img src="./python.jpg" alt="Python" class="mx-auto" />
+              <p class="text-center mt-2 text-zinc-800 dark:text-white">Python</p>
+            </div>
+            <div class="tech-card">
+              <img src="./node.png" alt="Node.js" class="mx-auto" />
+              <p class="text-center mt-2 text-zinc-800 dark:text-white">Node.js</p>
+            </div>
+            <div class="tech-card">
+              <img src="./java.png" alt="Java" class="mx-auto" />
+              <p class="text-center mt-2 text-zinc-800 dark:text-white">Java</p>
+            </div>
+            <div class="tech-card">
+              <img src="./aws.jpg" alt="AWS" class="mx-auto" />
+              <p class="text-center mt-2 text-zinc-800 dark:text-white">AWS</p>
+            </div>
+            <div class="tech-card">
+              <img src="./vercel1868.jpg" alt="Vercel" class="mx-auto" />
+              <p class="text-center mt-2 text-zinc-800 dark:text-white">Vercel</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="projects" id="projects">
+      <div class="bg-black text-white p-8">
+        <h1 class="text-3xl font-bold text-center mb-12">Projects</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12 p-12">
+          <div class="project-card p-4 rounded-lg">
+            <img src="./sports.png" alt="E-Commerce Website" class="mb-4">
+            <h2 class="text-2xl font-semibold my-4 text-black">Sportnerve</h2>
+
+            <a href="https://sportsnerve.com/" class="text-xl text-blue-800" target="_blank">Live Preview</a>
+          </div>
+          <div class="project-card p-4 rounded-lg">
+            <img src="./vegg.png" alt="Social Network App" class="mb-4">
+            <h2 class="text-2xl font-semibold my-4 text-black">Veggie express</h2>
+            <a href="https://cerulean-chebakia-0d436c.netlify.app/" class="text-xl text-blue-800 text-black" target="_blank">Live
+              Preview</a>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="pricing" id="pricing">
+      <div class="p-5">
+        <h1 class="text-center text-3xl font-bold my-12">Pricing Options</h1>
+
+        <div class="flex flex-col md:flex-row justify-center gap-4">
+          <div class="prices p-4 rounded-lg shadow-md w-full md:w-1/3  flex flex-col justify-between">
+            <h2 class="text-lg font-semibold  dark:text-white">Figma to Frontend</h2>
+            <p class="text-xl text-bold my-3 dark:text-white">$3000 <span class="text-sm text-gray-500">/ Starting at </span></p>
+            <p class=" price-text">Turn your Figma designs into Frontend. Starting at $3000, we will convert your Figma
+              to landing page, UI,
+              frontend application</p>
+
+            <div class="text-center price-btn mt-auto">
+              <a href="/contact.html" target="_blank"><button>Start your Jurney</button></a>
+            </div>
+          </div>
+
+
+          <div class="prices p-4 rounded-lg shadow-md w-full md:w-1/3  flex flex-col justify-between">
+             <div class="w-[60%] rounded-full  bg-yellow-200 most-populor mb-2"><h3 class="text-lg font-semibold text-center">Most popular</h3></div>
+
+            <h2 class="text-lg font-semibold  dark:text-white">Product Development</h2>
+            <p class="text-xl text-bold my-3 dark:text-white">$6000 <span class="text-sm text-gray-500">/ Starting at </span></p>
+            <p class=" price-text">The price of the MVP depends on the complexity of your project. Price starts at $6000
+              with guaranteed
+              delivery within the timeline.</p>
+
+            <div class="text-center price-btn mt-auto">
+              <a href="/contact.html" target="_blank"><button>Start your Jurney</button></a>
+            </div>
+          </div>
+
+
+
+
+
+          <div class="prices p-4 rounded-lg shadow-md w-full md:w-1/3  flex flex-col justify-between ">
+            <h2 class="text-lg font-semibold  dark:text-white">Website Recreation</h2>
+            <p class="text-xl text-bold my-3 dark:text-white">$3000 <span class="text-sm text-gray-500">/ Starting at </span></p>
+            <p class=" price-text">Do you already have product and want to add more capabilities and scale it? Let's
+              have a call to discuss
+              more</p>
+
+            <div class="text-center price-btn mt-auto">
+              <a href="/contact.html" target="_blank"><button>Start your Jurney</button></a>
+            </div>
+          </div>
+
+
+          <div class="prices p-4 rounded-lg shadow-md w-full md:w-1/3  flex flex-col justify-between">
+            <h2 class="text-lg font-semibold  dark:text-white">SEO </h2>
+            <p class="text-xl text-bold my-3 dark:text-white"> <span class="text-sm "> Depends on project Complexity and
+                time</span></p>
+            <p class=" price-text">The price of SEO depends on project complexity and time tacking</p>
+
+            <div class="text-center price-btn mt-auto">
+              <a href="/contact.html" target="_blank"><button>Start your Jurney</button></a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+
+
+  <div class="footer-top ">
+    <div class="flex justify-center">
+      <img src="./footer.svg" alt="footer pick" class="w-64">
+    </div>
+    <div class="text-center text-white mt-4">
+      <h2>Let's Discuss About Your Next Project</h2>
+      <div class="flex justify-around md:p-12">
+
+        <a href="/contact.html" target="_blank"><button><i class="fa-regular fa-address-book mx-2"></i>contact
+            us</button></a>
+
+        <button onclick="window.open('https://wa.me/+918979226642', '_blank')"><i class="fa-brands fa-whatsapp mx-2"></i>Whatsapp</button>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class=" text-white p-8 flex justify-between items-center">
+    <span>ajaykumarshakya560@gmail.com</span>
+    <div class="flex space-x-4 footer-links">
+      <a href="https://instagram.com" target="_blank" class="block">
+        <i class="fab fa-instagram"></i>
+
+      </a>
+      <a href="https://linkedin.com" target="_blank" class="block">
+        <i class="fab fa-linkedin"></i>
+
+      </a>
+      <a href="https://example.com" target="_blank" class="block">
+        <i class="fas fa-x"></i>
+
+      </a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
